@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav role="banner">
+        <input type="checkbox" id="check" style="display: none">
+        <label for="check" class="check">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <a href="index.html" class="link">
+            <img src="images/cleoooo.jpg" alt="logo de la pagina con cleo" class="logo">
+        </a>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a class="active" href="registro.html">Registro</a></li>
+            <li><a href="ceo.html">Nuestra CEO</a></li>
+        </ul>
+    </nav>
+    <div class="class" role="main">
+        <br>
+        <br>
+        <h2> Bienvenido como nuevo miembro del club. </h2>
+        <h2> Para continuar deberás responder las siguientes preguntas:</h2>  
+        <br><br>
+        <form style="padding-left: 20%; padding-right: 20%;" role="form">
+            <label for="full name"> Nombre y apellido:</label>
+            <br>
+            <input type="text" id="full name" required> 
+            <br>
+            <br>
+            <label for="dob"> Fecha de nacimiento:</label>
+            <br>
+            <br>
+         <input type="date" id="dob" required>
+            <h4>¿Cómo pensas contribuir al club?</h4>
+            <input type="textbox" minlength="6" maxlength="500" required>
+         <br>
+         <br>
+            <input type="submit" role="submit">
+            <input type="reset" role="reset">
+        </form>
+        </div>
+    
+
+<script src="https://kit.fontawesome.com/6fa5372c34.js" crossorigin="anonymous"></script>
+</body>
+</html>
